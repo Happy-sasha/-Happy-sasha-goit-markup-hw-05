@@ -775,10 +775,14 @@ fill: #4D5AE5;
   margin-bottom: 24px;
 }
 
-.modal-policy-input {
+.modal-policy-input:checked + .modal-policy-lable span  {
+  background-color: #404bbf;
+  border: none; 
+  fill: #F4F4FD
+
 }
 
-.policy-spam {
+.policy-text-spm {
   color:#4D5AE5;
 /* Link Text */
 font-family: Roboto;
