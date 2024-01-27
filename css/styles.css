@@ -463,8 +463,6 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .futer-container-logo {
-  display: flex;
-  flex-direction: column;
   margin-right: 120px;
 }
 
@@ -497,11 +495,10 @@ transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
-  margin-bottom: 16px;
 }
 
 .futer-social-container {
-  margin-right: 80px;
+  margin-right: auto;
 
 }
 
@@ -724,7 +721,6 @@ min-width: 169px;
 height: 56px;
 margin-left: auto;
 margin-right: auto;
-margin-bottom: 24px;
 padding: 16px 32px;
 cursor: pointer;
 border-radius: 4px;
@@ -785,9 +781,7 @@ letter-spacing: 0.04em;
 text-decoration-line: underline;
 }
 
-.futer-forma-container {
-  margin-right: 80px;
-}
+
 
 .futer-forma-text {
 margin-bottom: 16px;
